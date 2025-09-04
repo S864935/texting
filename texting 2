@@ -1,1 +1,7 @@
+# In main.py
+import data_processor
+import display
 
+# Calling functions from other files
+processed_numbers = data_processor.process_data(numbers)
+display.print_results(numbers, processed_numbers)
